@@ -1,0 +1,9 @@
+:host {
+  flex: 1;
+}
+
+.map .leaflet-container {
+  overflow: hidden;
+  z-index: 1;
+  padding-bottom: calc(100% / 1.2);
+}

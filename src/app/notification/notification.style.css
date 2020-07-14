@@ -1,0 +1,22 @@
+div {
+  padding: 8px 16px;
+  margin: 8px 0;
+  box-shadow: var(--box-shadow);
+  border-radius: var(--border-radius);
+  text-align: center;
+  opacity: 0.9;
+  color: var(--white);
+  background: var(--default);
+}
+
+div.danger {
+  background: var(--danger);
+}
+
+div.warning {
+  background: var(--warning);
+}
+
+div.success {
+  background: var(--success);
+}

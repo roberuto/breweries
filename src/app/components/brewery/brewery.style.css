@@ -1,0 +1,26 @@
+.card {
+  padding: 16px;
+  margin-bottom: 16px;
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow);
+  background: var(--white);
+  color: var(--color);
+}
+
+.name {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.type {
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.type span {
+  opacity: 0.6;
+}
+
+.info {
+  padding: 16px;
+}

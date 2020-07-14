@@ -1,0 +1,23 @@
+.images {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.images > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  padding: 20px;
+}
+
+.images img {
+  width: 100%;
+}
+
+@media (max-width: 800px) {
+  .images {
+    flex-direction: column;
+  }
+}

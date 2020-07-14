@@ -1,0 +1,31 @@
+.card {
+  display: flex;
+  padding: 16px;
+  margin-bottom: 16px;
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow);
+  background: var(--white);
+  color: var(--color);
+}
+
+.info {
+  flex: 2;
+}
+
+.info div {
+  padding: 8px 16px;
+}
+
+.info span {
+  font-weight: 900;
+}
+
+#map {
+  flex: 1;
+}
+
+@media (max-width: 800px) {
+  .card {
+    flex-direction: column;
+  }
+}
