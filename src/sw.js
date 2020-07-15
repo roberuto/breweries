@@ -2,8 +2,8 @@ import { DEBUG } from './config';
 
 const { assets } = global.serviceWorkerOption;
 
-const STATIC_CACHE_NAME = 'breweries-static-v1';
-const DYNAMIC_CACHE_NAME = 'breweries-dynamic-v1';
+const STATIC_CACHE_NAME = 'breweries-static-v2';
+const DYNAMIC_CACHE_NAME = 'breweries-dynamic-v2';
 
 const urlsToCache = [...assets, '/'].filter((asset) => asset !== '/_redirects');
 

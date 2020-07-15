@@ -24,15 +24,6 @@
       "icons": [{ "src": "icons/about.png", "sizes": "192x192" }]
     }
   ],
-  "share_target": {
-    "action": "/share-target/",
-    "method": "GET",
-    "params": {
-      "title": "title",
-      "text": "text",
-      "url": "url"
-    }
-  },
   "display": "standalone",
   "theme_color": "#ffc107",
   "background_color": "#fff492"
